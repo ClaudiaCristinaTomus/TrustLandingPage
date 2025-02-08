@@ -21,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
+    z-index:50;
 }
 
 .menu {
@@ -69,6 +70,7 @@ header {
         width: 100%;
         margin: 0;
         padding: 0;
+        z-index: 50;
     }
 
     .menu {
@@ -114,6 +116,7 @@ header {
 
     }
 
+
 }
 
 .firstSection {
@@ -126,6 +129,7 @@ header {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    z-index: 50;
 }
 
 .easier {
@@ -202,10 +206,14 @@ header {
 
 @media (max-width: 768px) {
     .easier {
-        width: 100%;
+        width:100%;
         text-align: center;
         padding: 2rem 0 0 0;
     }
+    .firstSection{
+        width:100%;
+    }
+
 }
 
 .firstCircle {
@@ -547,4 +555,35 @@ header {
         width: 100%;
         padding: 0 1em 0 1em;
     }
+}
+
+.lineAll{
+    margin:4em 1em;
+}
+.lineVertical{
+    border:1px solid #686060;
+   
+}
+.textLine{
+    position: absolute;
+    border:1px solid #666;
+    border-radius: 20px;
+    width:auto;
+    display:flex;
+    padding:10px 20px;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    justify-content: space-between;
+}
+.line{
+    position: relative;
+}
+.textOne{
+    padding:0 10px;
+}
+.linkLine{
+    text-decoration: none;
+    list-style-type:none;
 }
