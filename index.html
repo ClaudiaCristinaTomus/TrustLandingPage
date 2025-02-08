@@ -11,9 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
-    <script src="./script.js"></script>
-    <script src="https://kit.fontawesome.com/YOUR-FONTAWESOME-KIT.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 </head>
 
 <body>
@@ -41,7 +40,8 @@
         </div>
         <form class="search">
             <div class="searchContent">
-                <input type="text" name="search2" id="searchInput" placeholder="Search..." onfocus="clearPlaceholder()" onblur="restorePlaceholder()">
+                <input type="text" name="search2" id="searchInput" placeholder="Search..." onfocus="clearPlaceholder()"
+                    onblur="restorePlaceholder()">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </div>
         </form>
@@ -57,7 +57,71 @@
         </div>
     </section>
 
-   
+    <section>
+        <div class="carousel-wrapper">
+            <!-- Butoanele în dreapta sus -->
+            <div class="buttons">
+                <button id="prev">❮</button>
+                <button id="next">❯</button>
+            </div>
+            <!-- Containerul caruselului -->
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="cardOne">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <p class="textCard">Bank</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-plane"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-house"></i>
+                        <p class="textCard">Bank</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-gem"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-shirt"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-laptop"></i>
+                        <p class="textCard">Bank</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-building-columns"></i>
+                        <p class="textCard">Bank</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-plane"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    <div class="cardOne">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="textCard">Travel Insurance Company</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
@@ -99,6 +163,7 @@
             <a href="#"><i class="fab fa-pinterest"></i></a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

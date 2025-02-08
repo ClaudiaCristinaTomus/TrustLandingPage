@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px 100px;
-    z-index:50;
+    z-index: 50;
 }
 
 .menu {
@@ -120,8 +120,8 @@ header {
 }
 
 .firstSection {
-    background: rgb(236,109,29);
-    background: linear-gradient(90deg, rgba(236,109,29,1) 0%, rgba(218,223,92,1) 40%, rgba(210,222,99,1) 71%, rgba(146,194,107,1) 100%);
+    background: rgb(236, 109, 29);
+    background: linear-gradient(90deg, rgba(236, 109, 29, 1) 0%, rgba(218, 223, 92, 1) 40%, rgba(210, 222, 99, 1) 71%, rgba(146, 194, 107, 1) 100%);
     margin: 0;
     padding: 4em 0;
     display: flex;
@@ -159,9 +159,9 @@ header {
 }
 
 .search {
-    margin:0 auto;
-   text-align: center;
-    max-width:100%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
     position: relative;
 }
 
@@ -173,8 +173,8 @@ header {
     padding: 7px;
     border-radius: 30px;
     width: 100%;
-    margin: 0 auto; 
-    width: 400px; 
+    margin: 0 auto;
+    width: 400px;
 }
 
 .searchContent input {
@@ -206,12 +206,13 @@ header {
 
 @media (max-width: 768px) {
     .easier {
-        width:100%;
+        width: 100%;
         text-align: center;
         padding: 2rem 0 0 0;
     }
-    .firstSection{
-        width:100%;
+
+    .firstSection {
+        width: 100%;
     }
 
 }
@@ -557,33 +558,90 @@ header {
     }
 }
 
-.lineAll{
-    margin:4em 1em;
+.lineAll {
+    margin: 4em 1em;
 }
-.lineVertical{
-    border:1px solid #686060;
-   
+
+.lineVertical {
+    border: 1px solid #686060;
+
 }
-.textLine{
+
+.textLine {
     position: absolute;
-    border:1px solid #666;
+    border: 1px solid #666;
     border-radius: 20px;
-    width:auto;
-    display:flex;
-    padding:10px 20px;
+    width: auto;
+    display: flex;
+    padding: 10px 20px;
     top: -20px;
     left: 50%;
     transform: translateX(-50%);
     background-color: white;
     justify-content: space-between;
 }
-.line{
+
+.line {
     position: relative;
 }
-.textOne{
-    padding:0 10px;
+
+.textOne {
+    padding: 0 10px;
 }
-.linkLine{
+
+.linkLine {
     text-decoration: none;
-    list-style-type:none;
+    list-style-type: none;
+}
+
+
+/* -----carousel-----*/
+
+.carousel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.buttons button {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+  
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.cardOne{
+    padding: 0 30px;
+    text-align: center;
+}
+.textCard{
+    width:100%;
+    white-space: nowrap;
 }
