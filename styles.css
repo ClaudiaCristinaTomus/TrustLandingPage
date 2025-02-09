@@ -715,3 +715,174 @@ header {
     padding: 30px;
     text-align: center;
 }
+
+/*----cardOne-----*/
+
+.cardHelp{
+    background-color: rgb(243, 143, 107);
+    margin:2em 3em;
+    border-radius: 20px;
+    width:auto;
+    height:auto;
+}
+
+.allSides{
+    display:flex;
+    justify-content: space-between;
+    padding:5em 4em;
+   
+}
+.left{
+    width: 50%; 
+    
+}
+.right {
+    width: 50%; 
+    display: flex;
+    flex-wrap: wrap; /* Permite imaginilor sa se ajusteze pe mai multe randuri daca este necesar */
+    gap:10px;
+}
+
+.imagesCardHelp {
+    display: flex;
+    gap:20px;
+    width: 100%; /* Asiguram ca containerul ocupa toata latimea */
+}
+
+.imagesCardHelp img {
+    border-radius: 10px;
+    width: 30%; /* Imaginile vor ocupa aproximativ 1/3 din latimea containerului */
+    height: auto; /* Pastram proportiile imaginilor */
+    object-fit: cover; /* Asiguram ca imaginile se potrivesc in colturi fara a le distorsiona */
+}
+.cardHelpTitle{
+    font-size:38px;
+    font-weight: 900;
+    width:90%;
+}
+.cardHelpText{
+    font-size: 18px;
+    padding:2em 3em 3em 0;
+    width:90%;
+    line-height: 22px;
+}
+
+.loginCardHelp{
+    background-color: rgb(28, 27, 27);
+    border:1px solid  #000000;
+    color: #f7f7fa;
+    font-weight: 800;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 150px;  
+    height: 50px; 
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.lineCardHelp{
+    border:1px solid gray;
+}
+.iconsCardHelp {
+    display: flex;            
+    width: 30%; 
+}
+
+.iconsCardHelp a {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    width: 33.33%;            
+    height: 50px;             
+    text-align: center;       
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+.iconsCardHelp a i {
+    font-size: 24px;  
+}
+
+/* best in bank */
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.cardBest {
+    flex: 1;
+    min-width: 250px;
+    max-width: 23%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cardBest:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.imgCardBest {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.titlecardBest {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.siteCardBest {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+.reviews {
+    margin-top: 10px;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 5px;
+}
+
+.starCardBest i {
+    color: gold;
+    font-size: 16px;
+}
+
+.textRevies {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 1024px) {
+    .cardBest {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cardBest {
+        max-width: 100%;
+    }
+}
