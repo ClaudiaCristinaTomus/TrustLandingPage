@@ -379,7 +379,6 @@ header {
     color: #29417c;
     text-align: center;
     font-weight: bold;
-    font-family: Arial;
     border-radius: 10px;
     text-decoration: none;
     border: #29417c;
@@ -392,7 +391,6 @@ header {
     width: 60%;
     margin: 0 0 0 5em;
 }
-
 
 .lastSection {
     background-color: #dfecf4;
@@ -649,7 +647,7 @@ header {
 .titleSlider
 {
     display:flex;
-    margin:7em 2em 0 4em;
+    margin:7em 3em 0 3em;
     justify-content: space-between;
 }
 
@@ -739,21 +737,21 @@ header {
 .right {
     width: 50%; 
     display: flex;
-    flex-wrap: wrap; /* Permite imaginilor sa se ajusteze pe mai multe randuri daca este necesar */
+    flex-wrap: wrap;
     gap:10px;
 }
 
 .imagesCardHelp {
     display: flex;
     gap:20px;
-    width: 100%; /* Asiguram ca containerul ocupa toata latimea */
+    width: 100%; 
 }
 
 .imagesCardHelp img {
     border-radius: 10px;
-    width: 30%; /* Imaginile vor ocupa aproximativ 1/3 din latimea containerului */
-    height: auto; /* Pastram proportiile imaginilor */
-    object-fit: cover; /* Asiguram ca imaginile se potrivesc in colturi fara a le distorsiona */
+    width: 30%; 
+    height: auto; 
+    object-fit: cover; 
 }
 .cardHelpTitle{
     font-size:38px;
@@ -811,7 +809,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px;
+    padding:2em 3em;
     margin: auto;
 }
 
@@ -851,12 +849,9 @@ header {
     color: #666;
     margin-bottom: 10px;
 }
-
-
 .reviews {
     margin-top: 10px;
 }
-
 .stars {
     display: flex;
     justify-content: center;
@@ -885,4 +880,58 @@ header {
     .cardBest {
         max-width: 100%;
     }
+}
+
+/* card 2 */
+
+.weare{
+    background-color: rgb(18, 129, 83);
+    margin:2em 3em;
+    border-radius: 20px;
+    width:auto;
+    height:auto;
+    position: relative;
+}
+.imgWeare{
+    width:100%;
+    text-align: center;
+    object-fit: contain;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgWeareimg{
+    border-radius: 20px;
+    width:60%;
+
+}
+.allSidesWeare{
+    display:flex;
+    justify-content: space-between;
+    padding:3em 2em 2em 4em;
+    gap:70px;
+}
+
+
+.rightWeare{
+    width: 50%; 
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.leftWeare{
+    width:50%;
+}
+.imagesCardHelp {
+    display: flex;
+    gap:20px;
+    width: 100%; 
+}
+
+
+.cardHelpTextweare{
+   
+    padding:2em 0 ;
+    margin:0 0em 0 0 ;
 }
