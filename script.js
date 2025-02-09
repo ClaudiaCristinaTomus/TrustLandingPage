@@ -135,3 +135,4 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("next").addEventListener("click", () => moveSlide(-1));
     document.getElementById("prev").addEventListener("click", () => moveSlide(1));
 });
+
